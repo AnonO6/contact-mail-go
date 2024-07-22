@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      .container {
+        width: 100%;
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center; /* Center align content */
+      }
+      .header {
+        background-color: #f8f9fa;
+        color: #333;
+        padding: 10px;
+        border-radius: 8px 8px 0 0;
+        border-bottom: 2px solid #ffcb05; /* Naruto's Yellow */
+        position: relative;
+      }
+      .header img {
+        width: 60px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      .gif-container {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .content {
+        margin: 20px 0;
+        text-align: left; /* Align text to the left */
+      }
+      .message {
+        color: #333;
+        font-style: italic;
+        background-color: #e1e5e8;
+        padding: 10px;
+        border-left: 4px solid #ffcb05; /* Naruto's Yellow */
+        border-radius: 4px;
+        margin-bottom: 20px; /* Space between message and next text */
+      }
+      .footer {
+        font-size: 0.9em;
+        color: #555;
+        border-top: 1px solid #ddd;
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Thank You for Contacting Me!</h1>
+      </div>
+      <div class="gif-container">
+        <img
+          src="https://c.tenor.com/mCiM7CmGGI4AAAAC/naruto.gif"
+          alt="Naruto GIF"
+          style="width: 80%; max-width: 300px; border-radius: 8px"
+        />
+      </div>
+      <div class="content">
+        <p>Hi {{.Name}},</p>
+        <p>Thank you for reaching out! I have received your message:</p>
+        <p class="message">{{.Message}}</p>
+        <p>
+          I will respond to you personally as soon as possible. Don't worry this
+          is not a third party spamming mail engine, I have created this myself
+          and it is opensourced. You can find it on my github AnonO6.
+          unfortunately I can't put links here otherwise this mail might end up
+          in your spam folder 🥲.
+        </p>
+      </div>
+      <div class="footer">
+        <p>Best regards,</p>
+        <p>Aviral Shukla</p>
+      </div>
+    </div>
+  </body>
+</html>
