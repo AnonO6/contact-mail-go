@@ -14,6 +14,7 @@ func SetupRoutes() *chi.Mux {
 
 	r.Post("/api/getToken", controllers.GetToken)
 	r.Post("/api/sendEmail", middlewares.Authenticate(controllers.SendEmail))
+	r.Get("/api/healthz", controllers.Health)
 
 	return r
 }

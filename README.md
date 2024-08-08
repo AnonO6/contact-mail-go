@@ -61,6 +61,7 @@ Create a `.env` file in the root of the backend directory with the following con
 
 ```env
 SECRET=your-secret-key
+JWTKEY=your-jwt-secret-key
 ```
 
 Replace your-secret-key with your secret. It should be a secure random string used for token generation.
