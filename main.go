@@ -15,5 +15,5 @@ func main() {
 	r := routes.SetupRoutes()
 
 	fmt.Println("Server listening on port :8080")
-	log.Fatal(http.ListenAndServeTLS(":8080", "server.crt", "server.key", r))
+	log.Fatal(http.ListenAndServe(":8080", r))
 }
