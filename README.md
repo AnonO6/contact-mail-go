@@ -94,8 +94,9 @@ Replace your-secret-key with your secret. It should be a secure random string us
 
    {
    "email":"xyzgamer@gmail.com",
-   "Message":"Just testing this",
-   "name":"Aviral",
+   "message":"Just testing this",
+   "receiver_name":"Aviral",
+   "sender_name":"Aviral Shukla",
    "subject":"Hey! This is a testing message"
    }
 
@@ -143,12 +144,12 @@ Replace your-secret-key with your secret. It should be a secure random string us
     -d '{
          "email":"xyzgamer@gmail.com",
          "Message":"Just testing this",
-         "name":"Aviral",
+         "receiver_name":"Aviral",
+         "sender_name":"Aviral Shukla",
          "subject":"Hey! This is a testing message"
     }'
     ```
 
 <img width="1260" alt="image" src="https://github.com/user-attachments/assets/7b288d8c-9b8d-4faa-ae56-1daa328d61f7">
-
 
 # Feel free to contribute
