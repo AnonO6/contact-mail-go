@@ -150,6 +150,8 @@ Replace your-secret-key with your secret. It should be a secure random string us
     }'
     ```
 
+# User will receive a mail like below:
+
 <img width="1260" alt="image" src="https://github.com/user-attachments/assets/7b288d8c-9b8d-4faa-ae56-1daa328d61f7">
 
 # Feel free to contribute
