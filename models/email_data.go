@@ -6,10 +6,3 @@ type EmailData struct {
 	Name    string `json:"name"`
 	Subject	string	`json:"subject"`
 }
-
-// { 
-// 	"email":"xyzgamer@gmail.com",
-// 	"Message":"Just testing this",
-// 	"name":"Aviral",
-// 	"subject":"Hey! This is a testing message"
-// }
