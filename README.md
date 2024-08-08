@@ -1,4 +1,4 @@
-# CONTACT-MAIL-GO
+# AnonO6/contact-mail-go
 
 This backend service is designed to handle various tasks related to email communication and user authentication. It provides features such as email validation, HTML email template parsing, and user authentication with 2-phase verification.
 
