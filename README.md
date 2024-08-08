@@ -148,6 +148,7 @@ Replace your-secret-key with your secret. It should be a secure random string us
     }'
     ```
 
-![PHOTO-2024-07-22-08-06-14](https://github.com/user-attachments/assets/262b655d-b9e2-431d-ba95-ed3e8f930302)
+<img width="1260" alt="image" src="https://github.com/user-attachments/assets/7b288d8c-9b8d-4faa-ae56-1daa328d61f7">
+
 
 # Feel free to contribute
